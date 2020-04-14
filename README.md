@@ -6,7 +6,13 @@
 Package author: Jukka Aho (@ahojukka5)
 
 GraphOrdering.jl is a package focused on a problem of renumbering vertices of a
-graph such a way that the bandwidth of the sparse matrix is minimized.
+graph such a way that the bandwidth of the sparse matrix is minimized. In other
+words: find a permutation of system of equations which minimized the fill-in of
+sparse matrix during matrix factorization. The functionality of the package
+corresponds to the `symrcm` function of MATLAB.
+
+![](docs/example.gif)
+![](docs/example.svg)
 
 [travis-img]: https://travis-ci.org/ahojukka5/GraphOrdering.jl.svg?branch=master
 [travis-url]: https://travis-ci.org/ahojukka5/GraphOrdering.jl
