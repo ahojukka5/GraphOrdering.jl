@@ -1,0 +1,4 @@
+name = "GraphOrdering"
+uuid = "267a2ce4-744e-4f08-bd4a-3de159bb6163"
+authors = ["Jukka Aho <ahojukka5@gmail.com>"]
+version = "0.1.0"
